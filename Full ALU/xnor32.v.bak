@@ -1,0 +1,9 @@
+module xnor32(Ifequ,A,B);
+input [31:0] A,B;
+output Ifequ;
+wire [31:0] C
+
+xnor xnor1(C,A,B);
+nor32 nor1(Ifequ,C[31:0]);
+
+endmodule

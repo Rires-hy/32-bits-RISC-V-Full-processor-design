@@ -1,0 +1,8 @@
+module Lshift(out,a,s);
+input [31:0] a;
+input [4:0] s;
+output [31:0] out;
+
+assign out={a[31-s[4:0]:0],s[4:0]*{1'b0}};
+
+endmodule
