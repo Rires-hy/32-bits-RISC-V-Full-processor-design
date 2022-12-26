@@ -9,3 +9,6 @@
 ![image](https://user-images.githubusercontent.com/69144773/209580681-301417f8-c4a4-47b0-b115-d9df03dc2f57.png)
 ![image](https://user-images.githubusercontent.com/69144773/209580692-bbdb4e42-293c-4656-82d7-ca879830e72e.png)
 # Processor
+![image](https://user-images.githubusercontent.com/69144773/209580873-9954462a-61af-4ab0-9ec1-667badc91b02.png)
+![image](https://user-images.githubusercontent.com/69144773/209580823-e6bf3976-74c7-4f7e-a30a-aaa1c453e3f6.png)
+![image](https://user-images.githubusercontent.com/69144773/209580829-14d24b83-b5b7-4952-b97c-062665499a87.png)
