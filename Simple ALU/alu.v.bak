@@ -1,0 +1,22 @@
+module alu(data_operandA, data_operandB, ctrl_ALUopcode, ctrl_shiftamt, data_result, isNotEqual, isLessThan, overflow);
+
+   input [31:0] data_operandA, data_operandB;
+   input [4:0] ctrl_ALUopcode, ctrl_shiftamt;
+
+   output [31:0] data_result;
+   output isNotEqual, isLessThan,overflow;
+
+   // YOUR CODE HERE //
+	wire cin,cout;
+	wire [31:0] B;
+
+	////2 to 1 Mux, decision for add/sub,and solve cin 
+	m21 m1(cin,0,1,ctrl_ALUopcode[0]);
+	MUX2 mux2(B[31:0],data_operandB[31:0],~data_operandB[31:0],ctrl_ALUopcode[0]);
+	
+	//do add or sub
+	CSA32 csa1(data_operandA[31:0],B[31:0],cin,data_result[31:0],cout);
+	
+	//information signal value:
+	xnor xnor1(overflow,data_operandA[31],B[31],cout,~data_result[31]);
+endmodule

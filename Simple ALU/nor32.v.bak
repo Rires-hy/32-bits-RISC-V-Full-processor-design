@@ -1,0 +1,9 @@
+module nor32(out,in);
+
+input [31:0] in;
+output out;
+
+nor n1(out,in[31:0]);
+
+endmodule
+
