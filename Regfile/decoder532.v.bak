@@ -1,0 +1,4 @@
+module decoder532(
+    input [4:0] a,
+    output [31:0] d
+    );
