@@ -1,0 +1,7 @@
+module brcomp(data_readRegA,data_readRegB,BrNEq,BrLT);
+input [31:0] data_readRegA,data_readRegB;
+output BrNEq,BrLT;
+
+
+endmodule
+
